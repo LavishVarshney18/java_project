@@ -64,7 +64,7 @@
 2. Download Windows x64 Installer
 3. Run the installer and follow prompts
 
-![JDK Installation](screenshots/jdk_install.png)
+![JDK Installation](JAVA_PROJECT-main/JAVA_PROJECT-main/Screenshots/img_1.png)
 
 ### 2. Configure Environment Variables
 
@@ -86,7 +86,7 @@ java --version
 javac --version
 ```
 
-![Java Version Check](screenshots/java_version.png)
+![Java Version Check](JAVA_PROJECT-main/JAVA_PROJECT-main/Screenshots/img_2.png)
 
 ## Eclipse IDE Setup
 
@@ -96,7 +96,7 @@ javac --version
 2. Run the installer
 3. Select "Eclipse IDE for Java Developers"
 
-![Eclipse Installation](screenshots/eclipse_install.png)
+![Eclipse Installation](JAVA_PROJECT-main/JAVA_PROJECT-main/Screenshots/img_3.png)
 
 ### 2. Create New Java Project
 
@@ -107,7 +107,7 @@ javac --version
    - Module settings: Don't create module
 3. Click Finish
 
-![New Java Project](screenshots/new_project.png)
+![New Java Project](JAVA_PROJECT-main/JAVA_PROJECT-main/Screenshots/img_4.png)
 
 ### 3. Configure Run Settings
 
@@ -115,7 +115,7 @@ javac --version
 2. Create new Java Application configuration
 3. Set Main class and other options
 
-![Run Configuration](screenshots/run_config.png)
+![Run Configuration](JAVA_PROJECT-main/JAVA_PROJECT-main/Screenshots/img_5.png)
 
 ### 4. Project Structure
 ```
@@ -147,10 +147,7 @@ MyJavaProject/
    - Eclipse startup issues → Check workspace permissions
 
 ---
-**Note:** The README includes placeholders for screenshots (`screenshots/...`). You'll need to:
-2. Take screenshots of your actual installation steps
-3. Save them with the corresponding names (jdk_install.png, java_version.png, etc.)
-4. Update the image references in this README
+Additional screenshots available in the Screenshots folder can be used to further illustrate specific steps and features of the project.
 
 [![Java Version](https://img.shields.io/badge/Java-17%2B-orange)](https://ww## Syllabus Topic Mapping
 

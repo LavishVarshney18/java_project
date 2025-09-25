@@ -1,4 +1,156 @@
-# Java Programming Learning Project
+# Java Development Environment Setup Guide
+
+## Evolution of Java: A Timeline
+
+- **1995:** Java 1.0 - First release by Sun Microsystems
+- **2004:** Java 5 - Major update with generics, enums, annotations
+- **2014:** Java 8 - Revolutionary release with lambdas and Stream API
+- **2018:** Java 11 - First LTS after Java 8, new HTTP client
+- **2021:** Java 17 - Latest LTS with sealed classes
+- **2023:** Java 21 - Virtual threads, pattern matching
+
+## Java Editions Explained
+
+| Feature | Java ME (Micro) | Java SE (Standard) | Java EE (Enterprise) |
+|---------|----------------|-------------------|---------------------|
+| Purpose | Embedded & Mobile | Desktop & Core | Large-Scale Apps |
+| Device Target | IoT, Mobile | Personal Computers | Servers |
+| API Size | Minimal | Complete Core | Extended Enterprise |
+| Memory Usage | < 1MB | ~100MB | > 200MB |
+| Common Uses | Smart Cards | Desktop Apps | Web Applications |
+| Key APIs | CLDC, MIDP | Collections, IO | Servlets, EJB |
+
+## Java Architecture
+
+```
+┌── Java Development Kit (JDK) ──────────┐
+│   • Compiler (javac)                   │
+│   • Debugger                           │
+│   • Documentation                      │
+│   ┌── Java Runtime Environment ───┐    │
+│   │   • Class Libraries           │    │
+│   │   • Development Tools         │    │
+│   │   ┌── Java Virtual Machine ─┐ │    │
+│   │   │   • Class Loader       │ │    │
+│   │   │   • Bytecode Verifier  │ │    │
+│   │   │   • Memory Manager     │ │    │
+│   │   │   • Execution Engine   │ │    │
+│   │   └─────────────────────────┘ │    │
+│   └───────────────────────────────┘    │
+└──────────────────────────────────────────┘
+```
+
+### Component Roles
+- **JDK (Java Development Kit)**
+  - Complete development package
+  - Contains compiler (javac), debugger, docs
+  - Includes JRE and development tools
+  
+- **JRE (Java Runtime Environment)**
+  - Runtime environment for Java applications
+  - Contains class libraries and JVM
+  - Required to run Java programs
+  
+- **JVM (Java Virtual Machine)**
+  - Executes Java bytecode
+  - Manages memory and garbage collection
+  - Platform-specific implementation
+
+## Windows Installation Guide
+
+### 1. Download and Install JDK
+
+1. Visit [Oracle JDK Downloads](https://www.oracle.com/java/technologies/downloads/)
+2. Download Windows x64 Installer
+3. Run the installer and follow prompts
+
+![JDK Installation](screenshots/jdk_install.png)
+
+### 2. Configure Environment Variables
+
+1. Open System Properties → Advanced → Environment Variables
+2. Add new System Variable:
+   ```
+   Variable name: JAVA_HOME
+   Value: C:\Program Files\Java\jdk-17
+   ```
+3. Edit Path variable, add:
+   ```
+   %JAVA_HOME%\bin
+   ```
+
+### 3. Verify Installation
+Open Command Prompt and type:
+```bash
+java --version
+javac --version
+```
+
+![Java Version Check](screenshots/java_version.png)
+
+## Eclipse IDE Setup
+
+### 1. Install Eclipse
+
+1. Download [Eclipse IDE](https://www.eclipse.org/downloads/)
+2. Run the installer
+3. Select "Eclipse IDE for Java Developers"
+
+![Eclipse Installation](screenshots/eclipse_install.png)
+
+### 2. Create New Java Project
+
+1. File → New → Java Project
+2. Configure project settings:
+   - Project name: `MyJavaProject`
+   - JDK version: Select installed JDK
+   - Module settings: Don't create module
+3. Click Finish
+
+![New Java Project](screenshots/new_project.png)
+
+### 3. Configure Run Settings
+
+1. Right-click project → Run As → Run Configurations
+2. Create new Java Application configuration
+3. Set Main class and other options
+
+![Run Configuration](screenshots/run_config.png)
+
+### 4. Project Structure
+```
+MyJavaProject/
+├── src/
+│   └── (your .java files)
+├── bin/
+│   └── (compiled .class files)
+└── JRE System Library
+```
+
+## Tips for Success
+
+1. **Environment Variables:**
+   - Always verify JAVA_HOME is correctly set
+   - Ensure Path includes JDK bin directory
+
+2. **Eclipse Workspace:**
+   - Choose a convenient workspace location
+   - Use separate workspaces for different project types
+
+3. **Project Organization:**
+   - Follow package naming conventions
+   - Keep source files organized in packages
+
+4. **Common Issues:**
+   - "java not recognized" → Check Path variable
+   - "JDK not found" → Verify JAVA_HOME
+   - Eclipse startup issues → Check workspace permissions
+
+---
+**Note:** The README includes placeholders for screenshots (`screenshots/...`). You'll need to:
+2. Take screenshots of your actual installation steps
+3. Save them with the corresponding names (jdk_install.png, java_version.png, etc.)
+4. Update the image references in this README
 
 [![Java Version](https://img.shields.io/badge/Java-17%2B-orange)](https://ww## Syllabus Topic Mapping
 

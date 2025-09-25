@@ -1,4 +1,9 @@
-# Java Development Environment Setup Guide
+# CCRM - College Course Registration Management System
+## Project Overview
+CCRM is a comprehensive Java-based College Course Registration Management System that provides functionality for managing students, courses, enrollments, and academic transcripts. The system demonstrates advanced Java programming concepts including object-oriented design, exception handling, file I/O operations, and stream processing.
+
+
+## Java Development Environment Setup Guide
 
 ## Evolution of Java: A Timeline
 
@@ -546,73 +551,7 @@ We welcome contributions from the community! Here's how you can help:
 </tr>
 </table>
 
-## 📬 Support & Contact
 
-<div align="center">
-
-Need help? Have questions? Want to contribute?
-
-[![GitHub Issues](https://img.shields.io/github/issues/yourusername/java_project.svg)](https://github.com/yourusername/java_project/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/yourusername/java_project.svg)](https://github.com/yourusername/java_project/pulls)
-
-[📧 Email Us](mailto:your.email@example.com) • [💬 Join Discord](https://discord.gg/your-server)
-
-</div>
-
----
-
-<div align="center">
-
-### Made with ❤️ by the Java Community
-
-*If you found this project helpful, please consider giving it a ⭐*
-
-</div>
-
-2. **Install JDK**
-    - Run the installer as administrator
-    - Follow installation wizard
-    - Note installation path (e.g., `C:\Program Files\Java\jdk-17`)
-
-3. **Set Environment Variables**
-    - Open System Properties → Advanced → Environment Variables
-    - Add `JAVA_HOME`: `C:\Program Files\Java\jdk-17`
-    - Update `PATH`: Add `%JAVA_HOME%\bin`
-
-4. **Verify Installation**
-   ```bash
-   java -version
-   javac -version
-   ```
-
-   ![img.png](img.png)
-
-### Eclipse IDE Setup
-
-1. **Download Eclipse**
-    - Visit [Eclipse Downloads](https://www.eclipse.org/downloads/)
-    - Download Eclipse IDE for Java Developers
-
-2. **Install and Configure**
-    - Extract Eclipse to desired location
-    - Launch Eclipse and select workspace
-    - Go to Window → Preferences → Java → Installed JREs
-    - Verify correct JDK is selected
-
-3. **Create New Project**
-    - File → New → Java Project
-    - Enter project name: "CCRM"
-    - Select JDK version (11+)
-    - Configure build path if needed
-
-   ![img_1.png](img_1.png)
-
-4. **Import Existing Project**
-    - File → Import → General → Existing Projects into Workspace
-    - Browse to CCRM project folder
-    - Select project and click Finish
-
-   ![img_2.png](img_2.png)
 
 ## Project Structure & Syllabus Mapping
 

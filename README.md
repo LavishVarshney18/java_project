@@ -64,7 +64,7 @@
 2. Download Windows x64 Installer
 3. Run the installer and follow prompts
 
-![JDK Installation](JAVA_PROJECT-main/JAVA_PROJECT-main/Screenshots/img_1.png)
+![JDK Installation]
 
 ### 2. Configure Environment Variables
 
@@ -86,7 +86,7 @@ java --version
 javac --version
 ```
 
-![Java Version Check](JAVA_PROJECT-main/JAVA_PROJECT-main/Screenshots/img_2.png)
+![Java Version Check](JAVA_PROJECT-main/JAVA_PROJECT-main/Screenshots/img.png)
 
 ## Eclipse IDE Setup
 
@@ -96,7 +96,7 @@ javac --version
 2. Run the installer
 3. Select "Eclipse IDE for Java Developers"
 
-![Eclipse Installation](JAVA_PROJECT-main/JAVA_PROJECT-main/Screenshots/img_3.png)
+![Eclipse Installation]
 
 ### 2. Create New Java Project
 
@@ -107,7 +107,7 @@ javac --version
    - Module settings: Don't create module
 3. Click Finish
 
-![New Java Project](JAVA_PROJECT-main/JAVA_PROJECT-main/Screenshots/img_4.png)
+![New Java Project](JAVA_PROJECT-main/JAVA_PROJECT-main/Screenshots/img_1.png)
 
 ### 3. Configure Run Settings
 
@@ -115,7 +115,7 @@ javac --version
 2. Create new Java Application configuration
 3. Set Main class and other options
 
-![Run Configuration](JAVA_PROJECT-main/JAVA_PROJECT-main/Screenshots/img_5.png)
+![Run Configuration]
 
 ### 4. Project Structure
 ```
